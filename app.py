@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import numpy as np
 
 # Load the YOLO model
-model = YOLO('best.pt', verbose=False)
+model = YOLO('best.onnx', verbose=False)
 
 # Initialize Streamlit session state for blink count
 if "blink_count" not in st.session_state:
