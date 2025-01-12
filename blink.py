@@ -34,7 +34,7 @@ def process_video(frame, model, min_closed_frames):
     return frame
 
 # Streamlit UI
-st.title("Real-Time Blink Counter")
+st.title("BlinkMeter")
 st.text("Using YOLO and Streamlit")
 
 min_closed_frames = st.slider("Min Closed Frames for Blink", min_value=1, max_value=10, value=3)
