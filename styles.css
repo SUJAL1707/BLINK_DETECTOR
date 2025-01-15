@@ -1,0 +1,20 @@
+body {
+    background-color: #000; /* Black background */
+    color: #FF0000; /* Red text */
+}
+h1, h2, h3, label {
+    color: #FF0000; /* Red headings */
+    font-family: Arial, sans-serif;
+}
+.stButton button {
+    background-color: #FF0000; /* Red button */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.stButton button:hover {
+    background-color: #8B0000; /* Darker red on hover */
+}
